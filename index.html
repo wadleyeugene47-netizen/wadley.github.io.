@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101113">
+  <meta name="description" content="Wadley Eugene — software developer building websites and Python solutions.">
+  <title>Wadley Eugene | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Wadley Eugene home">
+        <span class="brand-mark">WE.</span>
+        <span class="brand-copy"><strong>WADLEY EUGENE</strong><small data-i18n="role">SOFTWARE DEVELOPER</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <label class="language-picker">
+          <span class="sr-only">Language</span>
+          <select id="language-select" aria-label="Choose language">
+            <option value="en">EN</option><option value="pt">PT</option><option value="es">ES</option><option value="fr">FR</option><option value="ht">KRE</option>
+          </select>
+        </label>
+        <a class="header-cta" href="#contact" data-i18n="letsTalk">Let's talk <span>↗</span></a>
+        <button class="mobile-menu-button" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="#about" data-i18n="navAbout">About</a><a href="#services" data-i18n="navServices">Services</a><a href="#work" data-i18n="navWork">Work</a><a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">INDEPENDENT DEVELOPER · BUILDING MY NEXT CHAPTER</span></p>
+          <h1 data-i18n="heroTitle">Ideas into code.<br><span>Code into possibilities.</span></h1>
+          <p class="hero-description" data-i18n="heroDescription">I build websites and Python solutions, solve technical problems, and turn ideas into functional digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work" data-i18n="viewWork">Explore my work <span>↗</span></a>
+            <a class="button button-quiet" href="#contact" data-i18n="contactMe">Contact me <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="meta-line"></i><span data-i18n="basedOn">Curiosity-led. Always learning.</span></span>
+            <span class="meta-separator">/</span>
+            <span data-i18n="languagesLine">English · Português · Español · Français · Kreyòl</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-glow"></div>
+            <div class="portrait-placeholder" id="portrait-placeholder">
+              <span class="portrait-monogram">WE</span>
+              <span class="portrait-caption" data-i18n="portraitPrompt">YOUR PORTRAIT GOES HERE</span>
+            </div>
+            <img class="portrait-image" id="portrait-image" src="assets/wadley-portrait.jpg" alt="Portrait of Wadley Eugene" hidden>
+            <div class="floating-card card-top"><span class="mini-icon">⌘</span><span><b>Build</b><small data-i18n="buildLabel">with purpose</small></span></div>
+            <div class="floating-card card-bottom"><span class="mini-status"></span><span><b data-i18n="learningLabel">Always learning</b><small data-i18n="learningSub">One project at a time</small></span></div>
+          </div>
+          <div class="visual-index">01 <span>—</span> 05</div>
+        </div>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      </section>
+
+      <section class="ticker" aria-label="Skills">
+        <div class="ticker-track"><span>PYTHON</span><i>✳</i><span>FLASK</span><i>✳</i><span>HTML & CSS</span><i>✳</i><span>WEB DESIGN</span><i>✳</i><span>PROBLEM SOLVING</span><i>✳</i><span>PYTHON</span><i>✳</i><span>FLASK</span><i>✳</i><span>HTML & CSS</span><i>✳</i><span>WEB DESIGN</span><i>✳</i></div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading"><p class="eyebrow">01 / <span data-i18n="aboutEyebrow">THE PERSON BEHIND THE CODE</span></p><h2 data-i18n="aboutTitle">Curious by nature.<br><span>Driven to create.</span></h2></div>
+        <div class="about-content">
+          <p class="about-lead" data-i18n="aboutLead">For me, coding is the excitement of turning an idea into something real.</p>
+          <div class="about-body">
+            <p data-i18n="aboutP1">I'm Wadley Eugene, a software developer motivated by curiosity, creativity, and the challenge of building useful things. I love the feeling of giving a computer instructions and watching an idea come to life.</p>
+            <p data-i18n="aboutP2">I'm developing my skills through personal projects, with a focus on web development, Python, and practical digital solutions. Every project is an opportunity to learn, experiment, and become a better problem-solver.</p>
+            <p data-i18n="aboutP3">Outside of coding, I enjoy cars, traveling, soccer, and snowboarding. My goal is to keep growing, take on bigger challenges, and one day build something truly extraordinary.</p>
+            <p class="signature">Wadley Eugene <span>↗</span></p>
+          </div>
+        </div>
+        <div class="values-grid">
+          <div><span class="value-number">01</span><strong data-i18n="value1">Curiosity</strong><p data-i18n="value1Desc">Keep asking questions and exploring what's possible.</p></div>
+          <div><span class="value-number">02</span><strong data-i18n="value2">Reliability</strong><p data-i18n="value2Desc">Communicate clearly and take the work seriously.</p></div>
+          <div><span class="value-number">03</span><strong data-i18n="value3">Growth</strong><p data-i18n="value3Desc">Learn continuously and improve with every project.</p></div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="section-heading heading-row"><div><p class="eyebrow">02 / <span data-i18n="servicesEyebrow">HOW I CAN HELP</span></p><h2 data-i18n="servicesTitle">Thoughtful solutions.<br><span>Built around your needs.</span></h2></div><p class="heading-note" data-i18n="servicesNote">Have an idea or a technical issue? Let's talk about what you need and see if I can help.</p></div>
+        <div class="service-list">
+          <article class="service-item"><span class="service-number">01</span><div><h3 data-i18n="service1">Website development</h3><p data-i18n="service1Desc">Responsive, clear websites designed to present your business or idea online.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-item"><span class="service-number">02</span><div><h3 data-i18n="service2">Landing pages</h3><p data-i18n="service2Desc">Focused pages that explain an offer, introduce a product, or help visitors take the next step.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-item"><span class="service-number">03</span><div><h3 data-i18n="service3">Python scripting & automation</h3><p data-i18n="service3Desc">Python scripts for suitable repetitive tasks and small workflow improvements.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-item"><span class="service-number">04</span><div><h3 data-i18n="service4">Debugging & website maintenance</h3><p data-i18n="service4Desc">Help investigating code issues, fixing bugs, and making updates to existing websites.</p></div><span class="service-arrow">↗</span></article>
+        </div>
+        <p class="small-note" data-i18n="servicesDisclaimer">Project fit depends on the requirements. Share the details and I'll confirm what I can take on before we begin.</p>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading heading-row"><div><p class="eyebrow">03 / <span data-i18n="workEyebrow">SELECTED WORK</span></p><h2 data-i18n="workTitle">Learning by <span>building.</span></h2></div><p class="heading-note" data-i18n="workNote">A look at projects I'm working on and the skills I'm putting into practice.</p></div>
+        <article class="project-card">
+          <div class="project-art">
+            <div class="project-window">
+              <div class="window-bar"><span></span><span></span><span></span><small>TREATSPIN / PROJECT</small></div>
+              <div class="code-art"><span class="code-muted">01</span> <span class="code-purple">from</span> flask <span class="code-purple">import</span> Flask<br><span class="code-muted">02</span> app = Flask(__name__)<br><span class="code-muted">03</span><br><span class="code-muted">04</span> <span class="code-green">@app.route</span>(<span class="code-yellow">"/"</span>)<br><span class="code-muted">05</span> <span class="code-purple">def</span> <span class="code-blue">home</span>():<br><span class="code-muted">06</span> &nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-yellow">"Ideas in progress."</span></div>
+              <div class="project-stamp">PERSONAL<br>PROJECT</div>
+            </div>
+          </div>
+          <div class="project-info"><div class="project-tags"><span>PYTHON</span><span>FLASK</span><span>PERSONAL PROJECT</span></div><h3>TreatSpin</h3><p data-i18n="treatspinDesc">A personal web project built with Python and Flask. More details and screenshots will be added as the project is documented.</p><div class="project-footer"><span data-i18n="projectStatus">Project details coming soon</span><span class="project-arrow">↗</span></div></div>
+        </article>
+        <div class="project-placeholder"><span>+</span><p data-i18n="moreProjects">More projects can be added here as you build and publish them.</p></div>
+      </section>
+
+      <section class="section beyond-section">
+        <div class="beyond-copy"><p class="eyebrow">04 / <span data-i18n="beyondEyebrow">BEYOND THE SCREEN</span></p><h2 data-i18n="beyondTitle">A life outside<br><span>the lines of code.</span></h2><p data-i18n="beyondDesc">Technology is a big part of what I enjoy, but I'm curious about the world beyond my screen, too.</p><div class="interest-tags"><span>Cars</span><span>Travel</span><span>Soccer</span><span>Snowboarding</span></div></div>
+        <div class="beyond-image"><div class="photo-placeholder"><span>YOUR PHOTOS</span><small data-i18n="photoPrompt">Add a few personal photos here</small></div></div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <p class="eyebrow">05 / <span data-i18n="contactEyebrow">HAVE SOMETHING IN MIND?</span></p>
+        <h2 data-i18n="contactTitle">Let's make your<br><span>next idea happen.</span></h2>
+        <p class="contact-description" data-i18n="contactDesc">Tell me what you're building, what you need help with, or what problem you're trying to solve.</p>
+        <a class="contact-email" href="mailto:wadleyeugene43@gmail.com">wadleyeugene43@gmail.com <span>↗</span></a>
+        <div class="contact-bottom">
+          <div class="social-links">
+            <a href="https://github.com/wadleyeugene47-netizen" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.fiverr.com/wadley_eug" target="_blank" rel="noreferrer">Fiverr ↗</a>
+            <button id="copy-email" type="button" data-i18n="copyEmail">Copy email</button>
+          </div>
+          <span data-i18n="replyNote">For project inquiries, email is the best place to start.</span>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><a class="footer-brand" href="#home">WE.</a><span>© <span id="year"></span> Wadley Eugene</span><a href="#home" data-i18n="backTop">Back to top ↑</a></footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
